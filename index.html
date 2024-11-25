@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.png" type="image/png">
+    <title>Isaac's Portofolio</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> Isaac <i class="fas fa-code"></i> </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#academic">academics</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Isaac Kariuki</h3>
+            <h3>Software Developer</h3>
+            <button class="btn-view-pdf" id="viewPdfBtn">Read My CV</button>
+
+        </div>
+            <!-- Modal -->
+    <div class="modal" id="pdfModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn-close" id="closeBtn">Close</button>
+                <button class="btn-download" id="downloadBtn">Download</button>
+            </div>
+            <iframe src="Mycv.pdf"></iframe>
+        </div>
+    </div>
+
+        <div class="image">
+            <img src="image/it.png" class="main-home-image" alt="">
+        </div>
+
+    </div>
+</br></br>
+    <div class="skills-container">
+        <h2>Programming Languages I'm Proficient In</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-js-square"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <p>Python</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <p>Java</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS3</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js"></i>
+            <p>Node.js</p>
+          </div>
+        </div>
+      </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> why choose me <span> about me</span> </h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/me.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">what's make me different!</h3>
+            <p>Hi, I’m Isaac Kariuki, a passionate programmer dedicated to solving complex problems and creating efficient, innovative solutions. Programming is more than just my profession—it's a constant challenge and a creative outlet where I can turn ideas into reality. I’m driven by the thrill of finding elegant solutions to difficult problems and continuously learning new technologies to stay ahead in an ever-evolving field.</p>
+            <p> When I’m not immersed in code, I recharge by connecting with nature through hiking, which helps me find balance and clarity. My passion for programming is matched only by my curiosity and desire to keep growing both professionally and personally.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="image/badge.png" alt="">
+                    <h3>Quality Services</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/reliability.png" alt="">
+                    <h3>Reliability</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/speech-bubble.png" alt="">
+                    <h3>Excellent Communication</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- academic section starts  -->
+
+<section class="academic" id="academic">
+
+    <h1 class="heading">  <span> my educational journney</span> </h1>
+
+  <!-- Education Section -->
+  <section class="section education-section">
+    <div class="education-cards-container">
+      <div class="education-card">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p class="degree">Expected Graduation: 2025</p>
+        <p class="institution">Dedan Kimathi University of Technology</p>
+        <p>Specialized in software engineering, algorithms, and data structures.</p>
+        <div class="date">2021 - Present</div>
+      </div>
+
+      <div class="education-card">
+        <h3>CCNA 1, 2 & 3 </h3>
+        <p class="degree">Expected Graduation: 2025</p>
+        <p class="institution">Cisco Networking Academy</p>
+        <p>Focused on networking, security and simulating real networks</p>
+        <div class="date">2024 - 2025</div>
+      </div>
+
+      <div class="education-card">
+        <h3>Full Stack Web Development</h3>
+        <p class="degree">To Be Completed: 2025</p>
+        <p class="institution">PLP</p>
+        <p>Learning modern technologies to build softwares, websites and designing database systems.</p>
+        <div class="date">2024 - 2025</div>
+      </div>
+    </div>
+  </section>
+
+
+</section>
+
+<!-- academic section ends -->
+
+<!-- certifications section starts  -->
+
+<section class="certificate" id="certificate">
+
+    <h1 class="heading">  <span> my certificates</span> </h1>
+
+    <section class="section certificates-section">
+        <div class="certificate-cards-container">
+          <div class="certificate-card">
+            <h3> Web Development</h3>
+            <p class="issuer">Issued by: Zalego Academy</p>
+            <p>Certification validating completion of Web Development course.</p>
+            <div class="date">Completed: November 2019</div>
+            <img src="image/cert.jpeg" alt=" Web Developer Certificate">
+          </div>
+    
+          <div class="certificate-card">
+            <h3>Software Development</h3>
+            <p class="issuer">Issued by: Power Learn Project</p>
+            <p>Certification as a Juniour Software Developer </p>
+            <div class="date">Completed: April 2025</div>
+            <img src="image/cert.jpeg" alt="PLP Certificate">
+          </div>
+    
+          <div class="certificate-card">
+            <h3>CCNA</h3>
+            <p class="issuer">Issued by: Cisco Networking Associate</p>
+            <p> Certification as a Networking Associate</p>
+            <div class="date">Completed: March 2025</div>
+            <img src="image/cert.jpeg" alt="CCNA Certificate">
+          </div>
+        </div>
+      </section>
+</section>
+
+<!-- certification section ends -->
+
+<!-- interests section starts  -->
+
+<section class="certificate" id="certificate">
+
+    <section class="section interests-section">
+        <h1 class="heading"> what excites me  <span> my interests </span> </h1>    
+        <div class="interests-container">
+          
+          <!-- Interest Card : Software Development -->
+          <div class="interest-card is-visible">
+            <div class="icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Software Development</h3>
+            <p>I’m passionate about building innovative software solutions. I love tackling complex problems and turning them into functional and scalable systems.</p>
+          </div>
+    
+          <!-- Interest Card : Artificial Intelligence -->
+          <div class="interest-card is-visible">
+            <div class="icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>Artificial Intelligence</h3>
+            <p>The potential of AI to revolutionize industries excites me. I’m deeply interested in machine learning, data science, and intelligent systems.</p>
+          </div>
+    
+      
+    
+          <!-- Interest Card : Cloud Computing -->
+          <div class="interest-card is-visible">
+            <div class="icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <h3>Cloud Computing</h3>
+            <p>The shift to cloud-based solutions is transforming the tech landscape. I’m eager to explore cloud infrastructure, scalability, and serverless computing.</p>
+          </div>
+    
+          <!-- Interest Card : Cybersecurity -->
+          <div class="interest-card is-visible">
+            <div class="icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Cybersecurity</h3>
+            <p>As digital transformation accelerates, protecting data and systems from cyber threats is more crucial than ever. I’m passionate about building secure systems and defending against threats.</p>
+          </div>
+    
+          
+    
+        </div>
+      </section>
+
+<!-- interests section ends -->
+
+
+<section id="projects">
+    <h1 class="heading"> My Work <span> projects</span> </h1>    
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <img src="image/plasmawaterafrica.png" alt="Task Manager App">
+            <div class="project-info">
+                <h3>Plasma Water Africa</h3>
+                <p>A website for a water and energy solutions organization</p>
+            </div>
+            <div class="overlay">
+                <a href="" class="github-link" target="_blank">GitHub Repo</a>
+                <a href="https://plasmawaterafrica.com" target="_blank">Visit Project</a>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+            <img src="https://via.placeholder.com/350x200" alt="E-Commerce Website">
+            <div class="project-info">
+                <h3>E-Commerce Website</h3>
+                <p>A modern platform for shopping with payment integration.</p>
+            </div>
+            <div class="overlay">
+                <a href="" class="github-link" target="_blank">GitHub</a>
+                <a href="" target="_blank">Visit Project</a>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+            <img src="image/portofolio.png" alt="Portfolio Website">
+            <div class="project-info">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio showcasing my projects and skills.</p>
+            </div>
+            <div class="overlay">
+                <a href="" class="github-link" target="_blank">GitHub</a>
+                <a href="isaackariuki.netlify.app" target="_blank">Visit Project</a>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+<div class="project-card">
+    <img src="https://via.placeholder.com/350x200" alt="Task Manager App">
+    <div class="project-info">
+        <h3>Task Manager App</h3>
+        <p>An intuitive web application for managing daily tasks effectively.</p>
+    </div>
+    <div class="overlay">
+        <a href="" class="github-link" target="_blank">GitHub</a>
+        <a href="" target="_blank">Visit Project</a>
+    </div>
+</div>
+
+          
+        
+    </div>
+</section>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> reviews <span>what people say</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-1.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-2.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-3.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="image/pic-4.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+                <!-- contact -->
+                <section class="contact" id="contact">
+                    <h1 class="heading"> get in touch <span> contact me</span> </h1>    
+                    
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                            <!-- Web3forms Access Key -->
+                    <input type="hidden" name="access_key" value="a6bc627c-9965-450f-b262-47dd39199532">
+                        <div class="input-group">
+                            <div class="input-box">
+                                <input type="text" placeholder="Full Name">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <div class="input-box">
+                                <input type="number" placeholder="Phone Number">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                        </div>
+
+                        <div class="input-group-2">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Send Message" class="btn">
+                        </div>
+                    </form>
+                
+                </section>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+       
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#academic"> <i class="fas fa-arrow-right"></i> academics </a>
+            <a href="#projects"> <i class="fas fa-arrow-right"></i> projects </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 0741-653-862 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 0114-973-596 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> kariukiisaac911@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> Nairobi,Kenya. </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="linkedin.com"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="x.com"> <i class="fab fa-twitter"></i> x </a>
+            <a href="instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="www.linkedin.com/in/isaackariuki/"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> Developed by <span> Isaac Kariuki</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    const viewPdfBtn = document.getElementById('viewPdfBtn');
+    const pdfModal = document.getElementById('pdfModal');
+    const closeBtn = document.getElementById('closeBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+
+    viewPdfBtn.addEventListener('click', () => {
+        pdfModal.classList.add('active');
+    });
+
+    closeBtn.addEventListener('click', () => {
+        pdfModal.classList.remove('active');
+    });
+
+    downloadBtn.addEventListener('click', () => {
+        window.open('Mycv.pdf', '_blank');
+    });
+</script>
+
+
+</body>
+</html>
