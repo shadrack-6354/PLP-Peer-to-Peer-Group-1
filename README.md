@@ -26,3 +26,4 @@ Barnen
 Brandy
 Sudo
 Salim
+Seth
